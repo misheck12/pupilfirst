@@ -410,6 +410,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.4-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     oauth2 (2.0.9)
@@ -452,6 +454,7 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.4)
+    pg (1.5.4-x64-mingw-ucrt)
     pg_search (2.3.6)
       activerecord (>= 5.2)
       activesupport (>= 5.2)
@@ -704,6 +707,7 @@ GEM
 PLATFORMS
   arm64-darwin-21
   ruby
+  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
